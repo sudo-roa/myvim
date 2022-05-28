@@ -48,6 +48,8 @@ then
         n)
             break;;
     esac
+else
+    cp ./vimrc $HOME;;
 fi
 
 echo 'fin'
