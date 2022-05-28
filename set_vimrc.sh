@@ -25,7 +25,7 @@ case $cmd in
         echo '追加します。'
         if [ -d $HOME/.vim/autoload/ ]
         then
-            cp ./editor.vim $HOME/.vim/autoload/edirot.vim
+            cp ./editor.vim $HOME/.vim/autoload/editor.vim
         else
             mkdir $HOME/.vim/autoload
             cp ./editor.vim $HOME/.vim/autoload/editor.vim
