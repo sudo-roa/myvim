@@ -49,7 +49,7 @@ then
             break;;
     esac
 else
-    cp ./vimrc $HOME
+    cp ./.vimrc $HOME
 fi
 
 echo 'fin'
