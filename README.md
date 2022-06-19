@@ -11,3 +11,12 @@ $ sudo update-locale LANG=jp_JP.UTF-8
 $ export LANGUAGE=ja_JP:ja
 $ source ~/.bashrc
 ```
+
+## vim pluginの有効化
+
+```
+$ vim hoge
+
+:PlugInstall
+
+```
