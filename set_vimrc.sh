@@ -52,4 +52,16 @@ else
     cp ./.vimrc $HOME
 fi
 
+node > /dev/null 2>&1
+if [ "$?" -eq 127 ]
+then
+    echo 'nodeはない'
+    curl -sL https://deb.nodesource.com/setup_current.x |sudo -E bash -
+    sudo apt install -y nodejs
+else
+    echo 'nodeがあるはず'
+fi
+
+# eval `curl -sL install-node.vercel.app/lts |bash`
+
 echo 'fin'
