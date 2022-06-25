@@ -52,7 +52,7 @@ else
     cp ./.vimrc $HOME
 fi
 
-node > /dev/null 2>&1
+node -v > /dev/null 2>&1
 if [ "$?" -eq 127 ]
 then
     echo 'nodeはない'
